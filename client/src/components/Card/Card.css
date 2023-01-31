@@ -1,0 +1,143 @@
+/* .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+} */
+
+.wrapper {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dr {
+  position: absolute;
+  /* background-color: #841814; */
+}
+
+.dr button {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  /* background-color: green; */
+}
+
+.description {
+  padding: 5px;
+}
+
+.card {
+  max-width: 300px;
+  margin: 15px;
+  background: gray;
+  border: 3px solid #841814;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
+.img {
+  width: 295px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.name {
+  /* font-family: "RocknRoll One", sans-serif; */
+  /* display: flex;
+  align-items: flex-start; */
+  font-size: 25px;
+  /* margin: 4px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: red; */
+  /* height: 50px; */
+}
+
+.genres {
+  font-family: "Poppins", sans-serif;
+  /* display: flex;
+  align-items: flex-start; */
+  /* height: 60px; */
+  white-space: normal;
+  /* background-color: red; */
+}
+
+.rating {
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  /* display: flex;
+  align-items: flex-start; */
+}
+
+/* Button to update and delete **********************/
+
+.button {
+  border-radius: 0.25em;
+}
+
+.touch:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 99999px rgba(0, 0, 0, 0.1);
+}
+
+.touch {
+  transition: ease-in-out 0.2s;
+  line-height: 40px;
+  width: 10px;
+  padding: 0px;
+  text-align: center;
+}
+
+.edit:before,
+.delete:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 1rem;
+  padding-right: 12px;
+  background: none;
+  color: #fff;
+}
+
+.touch.edit:before,
+.touch.delete:before {
+  width: 100%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.edit {
+  background: #ffc107;
+}
+
+.delete {
+  background: rgb(192, 57, 43);
+}
+
+.edit_btn {
+  margin-top: 3px;
+  margin-left: 4px;
+}
+
+.dele_btn {
+  margin-top: 3px;
+  margin-left: 4px;
+}

@@ -1,0 +1,108 @@
+.navBar {
+  display: flex;
+  position: fixed;
+  background-color: #002e5f;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  height: 90px;
+  width: 100%;
+  z-index: 100;
+}
+
+.buttons {
+  display: flex;
+  width: 30em;
+  padding-left: 3em;
+  justify-content: space-around;
+  /* background-color: green; */
+}
+
+.button_main {
+  padding: 0 30px 0;
+  font-size: 20px;
+  position: relative;
+}
+
+.button {
+  font-size: 20px;
+  padding: 0 30px 0 0;
+  position: relative;
+  /* background-color: red; */
+}
+
+.contact {
+  background-color: white;
+
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  height: 35px;
+  width: 200px;
+
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.a {
+  width: 25px;
+  height: 30px;
+}
+
+/* Search **************************/
+
+.search {
+  float: right;
+  margin: 7px;
+}
+
+.search input {
+  /* height: 1.5em; */
+  width: 20em;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search button {
+  background-color: white;
+  color: black;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+
+  width: 6em;
+  margin-left: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.search button:hover {
+  background-color: wheat;
+}
+
+/* LUPA ************************/
+
+/* LINKS ****************************/
+
+a:link {
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:active {
+  text-decoration: none;
+}

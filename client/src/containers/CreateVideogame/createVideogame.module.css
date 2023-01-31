@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* CONTAINER ***********************/
+.create {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding: 25px; */
+  padding-top: 100px;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1fr 0.2fr;
+}
+
+.item_one {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  font-size: 20px;
+  margin: 0 5% 5% 15%;
+}
+
+.item_two {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  font-size: 23px;
+
+  /* background-color: aqua; */
+  margin: 4%;
+  height: min-content;
+}
+
+.item_three {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  font-size: 23px;
+
+  /* background-color: aqua; */
+  margin: 4%;
+  height: min-content;
+}
+
+.item_four {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  font-size: 20px;
+
+  /* background-color: red; */
+}
+/* CONTAINER ***********************/
+
+/* FORM *****************************/
+
+.h2 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.form_input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form_textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  resize: vertical;
+  min-height: 180px;
+  max-height: 240px;
+}
+
+.form_input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form_label_date {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #04aa6d; */
+
+  /* margin-left: 30%;
+  margin-right: 30%; */
+}
+
+.form_date {
+  appearance: none;
+  color: #1d1d1d;
+  font-family: “Helvetica”, arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #ecf0f1;
+  background: white;
+  padding: 4px;
+  display: inline-block;
+  visibility: visible;
+  width: 140px;
+
+  padding: 5px;
+  margin: 5px auto; /* CENTER A DIV */
+}
+.form_date:focus {
+  color: #495057;
+  background-color: #ffffff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.slider {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.submit {
+  width: 30%;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  font-size: 20px;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+/* FORM *****************************/
+
+/* OPTIONS **************************/
+
+.platfomrs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 0fr));
+  /* grid-gap: 5px; */
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 2%;
+  margin: 10px;
+}
+
+/* ***************************/
+/* The container */
+.container {
+  display: block;
+  width: 170px;
+  position: relative;
+  padding: 3%;
+  padding-left: 40px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 10px;
+  border: solid gray;
+  border-width: 1px;
+  transition: 0.3s;
+}
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container:hover {
+  background-color: #6ab8f7;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* ****** ERROR *********************/
+
+.error {
+  font-size: 14px;
+  margin-bottom: 7px;
+  color: red;
+}

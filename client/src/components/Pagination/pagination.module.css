@@ -1,0 +1,37 @@
+/* .pagination button {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin: 15px 5px 15px;
+}
+
+.pagination button.active {
+  background-color: red;
+  color: blue;
+}
+
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+:target {
+  color: red;
+} */
+
+.check {
+  color: black;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin: 15px 5px 15px;
+}
+
+.notCheck {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin: 15px 5px 15px;
+}
