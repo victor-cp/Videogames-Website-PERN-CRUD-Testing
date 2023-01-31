@@ -3,6 +3,7 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const routes = require("./routes/index.js");
+var cors = require("cors");
 
 require("./db.js");
 
@@ -15,7 +16,11 @@ server.use(bodyParser.json({ limit: "50mb" }));
 server.use(cookieParser());
 server.use(morgan("dev"));
 server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // update to match the domain you will make the request from
+  res.header(
+    "Access-Control-Allow-Origin",
+    "https://videogames-website-pern-crud-testing-ot7p.vercel.app/"
+  ); // update to match the domain you will make the request from
+  // http://localhost:3000
   res.header("Access-Control-Allow-Credentials", "true");
   res.header(
     "Access-Control-Allow-Headers",
@@ -24,7 +29,7 @@ server.use((req, res, next) => {
   res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
   next();
 });
-
+server.use(cors()); // Use this after the variable declaration
 server.use("/", routes);
 
 // Error catching endware.
