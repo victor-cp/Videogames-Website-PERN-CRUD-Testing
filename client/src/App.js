@@ -10,7 +10,7 @@ import { useDispatch } from "react-redux";
 import { getGenres } from "./redux/actions/actions";
 
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "https://deploy-production-bc78.up.railway.app/";
 
 function App() {
   const dispatch = useDispatch();
