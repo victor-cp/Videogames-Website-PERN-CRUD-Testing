@@ -9,6 +9,12 @@ Testing all components frontend, backend and DB
 
 ---
 
+## Deploy
+
+![Sin-títul-3o](https://user-images.githubusercontent.com/69781012/215948258-60ff165c-b3e9-4c93-b481-c720140779ee.gif)
+
+---
+
 ## Important
 
 It is necessary to have at least the latest stable version of Node and NPM.
