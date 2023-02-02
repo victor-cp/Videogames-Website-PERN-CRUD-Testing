@@ -11,8 +11,10 @@ Testing all components frontend, backend and DB
 
 ## Flowchart
 
+### Design
 ![Captura de pantalla (12)](https://user-images.githubusercontent.com/69781012/216368963-39ff00b1-8b49-41da-88ae-1cdef7700a82.png)
 
+### Architecture
 ![Captura de pantalla (14)](https://user-images.githubusercontent.com/69781012/216398600-3df59a63-77c4-4bb1-bfa6-7cc8a77f121c.png)
 ![Captura de pantalla (15)](https://user-images.githubusercontent.com/69781012/216398755-21c4ddd4-9d42-4177-a968-b12a46d45227.png)
 ![Captura de pantalla (13)](https://user-images.githubusercontent.com/69781012/216398617-db30c1bf-e355-4bc8-bf89-bdcfb096dd2f.png)
