@@ -9,6 +9,12 @@ Testing all components frontend, backend and DB
 
 ---
 
+## Flowchart
+
+![Captura de pantalla (12)](https://user-images.githubusercontent.com/69781012/216368963-39ff00b1-8b49-41da-88ae-1cdef7700a82.png)
+
+---
+
 ## Deploy
 
 ![Sin-títul-3o](https://user-images.githubusercontent.com/69781012/215948258-60ff165c-b3e9-4c93-b481-c720140779ee.gif)
