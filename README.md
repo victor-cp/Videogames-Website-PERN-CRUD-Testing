@@ -13,6 +13,10 @@ Testing all components frontend, backend and DB
 
 ![Captura de pantalla (12)](https://user-images.githubusercontent.com/69781012/216368963-39ff00b1-8b49-41da-88ae-1cdef7700a82.png)
 
+![Captura de pantalla (15)](https://user-images.githubusercontent.com/69781012/216398518-67504fd5-7c7a-40ed-8002-8c1168d8108c.png)
+![Captura de pantalla (14)](https://user-images.githubusercontent.com/69781012/216398600-3df59a63-77c4-4bb1-bfa6-7cc8a77f121c.png)
+![Captura de pantalla (13)](https://user-images.githubusercontent.com/69781012/216398617-db30c1bf-e355-4bc8-bf89-bdcfb096dd2f.png)
+
 ---
 
 ## Deploy
